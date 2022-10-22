@@ -17,7 +17,7 @@ I added the feature of toggling to light and dark mode. To toggle between modes 
 </div>
 ```
 
-Assigning the `id` of `switch` to the checkbox I can target it in the JS file. This also serves to link the `input` and `label` by setting the `for` attribute to `switch`
+Assigning the `id` to `switch` on the checkbox I can target it in the JS file. This also serves to link the checkbox and `label` element by setting the `for` attribute to `switch`.
 
 ```javascript
 const toggle = document.getElementById("switch");
@@ -29,4 +29,4 @@ toggle.addEventListener("change", () => {
 });
 ```
 
-When the user clicks on the switch the class of `light-theme` is toggled on the `body`
+When the user clicks on the switch the class of `light-theme` is toggled on the `body`.
